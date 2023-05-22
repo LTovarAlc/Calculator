@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(194, 191, 191),rgb(53, 51, 51));
+}
+
+.box-calculator{
+    background-color: rgb(59, 58, 58);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 380px;
+    border-radius: 20px;
+}
+
+.screen{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 15px;
+}
+
+.principals{
+    display: flex;
+    justify-content: center;
+}
+
+.reset{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+    margin: 5px auto;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 25);
+    color: white;
+}
+
+.reset:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+.delete{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 140px;
+    margin: 5px auto;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 174, 25);
+    color: white;
+}
+
+.delete:hover{
+    background-color: rgb(221, 144, 0);
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #837a7a;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button:hover{
+    background-color: #555;
+}
+
+.buttons button.equal{
+    background-color: rgb(255, 174, 25);
+}
+
+.buttons button.equal:hover{
+    background-color: rgb(221, 144, 0);
+}
